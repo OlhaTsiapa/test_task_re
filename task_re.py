@@ -32,6 +32,7 @@ if email:
     result = parsing_email.search(email)
     user = result.group("user")
     company = result.group("company")
+
     print("Company: %s, User: %s" % (company, user))
 
 
